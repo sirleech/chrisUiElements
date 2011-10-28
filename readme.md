@@ -1,6 +1,6 @@
 # Sample Page
 
-[https://sirleech.github.com/chrisUiElements](https://sirleech.github.com/chrisUiElements)
+[http://sirleech.github.com/chrisUiElements](http://sirleech.github.com/chrisUiElements)
 
 # License   
 ## Creative Commons License 3.0

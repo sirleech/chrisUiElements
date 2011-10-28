@@ -108,3 +108,17 @@ button.large:active{
 	left:1px;
 	box-shadow: 0px 0px 1px #dbdbdb;
 }
+
+button.yes_large, button.yes_large:hover{
+	background-image:url('button_images/button_27x27_check.png');
+	background-position: 7px 5px;
+	padding-right:8px;
+	width: 87px;
+}
+
+button.no_large, button.no_large:hover{
+	background-image:url('button_images/button_27x27_cross.png');
+	background-position: 7px 5px;
+	padding-right:8px;
+	width: 75px;
+}

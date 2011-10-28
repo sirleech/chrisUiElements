@@ -3,4 +3,4 @@
 body {background:gray;}
 * {font-family: Helvetica, Arial;}
 h2{font-weight:normal;}
-.col1 {margin: auto; width:640px;background:#fff;height:700px;padding:20px;}
+.col1 {margin: auto; width:640px;background:#fff;height:700px;padding:20px;border-radius: 10px;}
