@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+
+button.app {
+	background: #f5f6f7;
+	border: 1px solid #d2d0d0;
+	color: #505151;	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-size:13px;
+	font-weight:bold;
+	font-family: Arial;
+	height:30px;	
+	display:inline;
+	text-align:right;
+	background-repeat:no-repeat;
+}
+
+button.app:hover{
+	background-repeat:no-repeat;
+	border: 1px solid #b1b1b1;
+	box-shadow: 0px 2px 1px #dbdbdb;
+}
+
+button.app:active{
+	background: #fff;
+	background-repeat:no-repeat;
+	position:relative;
+	top:1px;
+	left:1px;
+	box-shadow: 0px 0px 1px #dbdbdb;	
+}
+
+button.add, button.add:hover{
+	background-image:url('button_images/button_20x20_plus.png');
+	background-position: 7px 5px;
+	padding-right:10px;
+	width: 75px;
+}
+
+button.delete, button.delete:hover{
+	background-image:url('button_images/button_20x20_trash.png');
+	background-position: 5px 4px;	
+	width: 32px;
+	color: #f5f6f7;
+}
+
+button.edit, button.edit:hover{
+	background-image:url('button_images/button_20x20_pencil.png');
+	background-position: 7px 5px;
+	padding-right:10px;
+	width: 75px;
+}
