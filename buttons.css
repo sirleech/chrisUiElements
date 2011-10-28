@@ -2,6 +2,10 @@
 
 button {margin:4px;}
 
+/* ===============================================*/
+/* Regular Buttons */
+/* ===============================================*/
+
 button.app {
 	background: #f5f6f7;
 	border: 1px solid #d2d0d0;
@@ -66,4 +70,41 @@ button.no, button.no:hover{
 	background-position: 7px 5px;
 	padding-right:8px;
 	width: 65px;
+}
+
+/* ===============================================*/
+/* Large Buttons */
+/* ===============================================*/
+
+button.large {
+	background: #f5f6f7;
+	border: 1px solid #d2d0d0;
+	color: #505151;	
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Arial;
+	height:40px;
+	width:90px;	
+	display:inline;
+	text-align:right;
+	background-repeat:no-repeat;
+	padding-right:12px;
+}
+
+button.large:hover{
+	background-repeat:no-repeat;
+	border: 1px solid #b1b1b1;
+	box-shadow: 0px 2px 1px #dbdbdb;
+}
+
+button.large:active{
+	background: #fff;
+	background-repeat:no-repeat;
+	position:relative;
+	top:1px;
+	left:1px;
+	box-shadow: 0px 0px 1px #dbdbdb;
 }
