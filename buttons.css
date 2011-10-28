@@ -1,5 +1,7 @@
 @CHARSET "ISO-8859-1";
 
+button {margin:4px;}
+
 button.app {
 	background: #f5f6f7;
 	border: 1px solid #d2d0d0;
