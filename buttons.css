@@ -30,7 +30,7 @@ button.app:active{
 	position:relative;
 	top:1px;
 	left:1px;
-	box-shadow: 0px 0px 1px #dbdbdb;	
+	box-shadow: 0px 0px 1px #dbdbdb;
 }
 
 button.add, button.add:hover{
@@ -52,4 +52,18 @@ button.edit, button.edit:hover{
 	background-position: 7px 5px;
 	padding-right:10px;
 	width: 75px;
+}
+
+button.yes, button.yes:hover{
+	background-image:url('button_images/button_20x20_check.png');
+	background-position: 7px 5px;
+	padding-right:8px;
+	width: 70px;
+}
+
+button.no, button.no:hover{
+	background-image:url('button_images/button_20x20_cross.png');
+	background-position: 7px 5px;
+	padding-right:8px;
+	width: 65px;
 }
