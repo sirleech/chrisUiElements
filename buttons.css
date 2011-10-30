@@ -6,6 +6,14 @@ button {margin:4px;}
 /* Regular Buttons */
 /* ===============================================*/
 
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+}
+
 button.app {
 	background: #f5f6f7;
 	border: 1px solid #d2d0d0;
