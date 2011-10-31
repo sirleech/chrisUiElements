@@ -5,21 +5,45 @@
 	<link type="text/css" rel="stylesheet" href="buttons.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>Chris' UI Elements</title>
+	<script src="js/jquery-1.2.6.min.js"></script>
 	</head>
 <body>
 
-	<div class="col1">
+	<div class="col1" >
 		<h2>Regular Buttons</h2>
-		<button class="app add">Add</button>
-		<button class="app delete">&nbsp;</button>
-		<button class="app edit">Edit</button>
-		<button class="app yes">Yes</button>
-		<button class="app no">No</button>
+		<button class="app add" title="Add">Add</button>
+		<button class="app delete tooltip-js" title="Delete">&nbsp;</button>
+		<button class="app edit tooltip-js" title="Edit">&nbsp;</button>
+		<button class="app yes" title="Edit">Yes</button>
+		<button class="app no" title="Edit">No</button>
 		
 		<h2>Large Buttons</h2>
-		<button class="large yes_large">Yes</button>
-		<button class="large no_large">No</button>
+		<button class="large yes_large" title="Edit">Yes</button>
+		<button class="large no_large" title="Edit">No</button>
+		
+		<a href="http://www.bom.gov.au" title="A Test Tooltip">Bureau of Meteorlogy Link</a>
 	</div>
 
+
+<!-- js tooltips -->
+<script>
+	$(function() {
+		// select all desired input fields and attach tooltips to them
+		$(" .tooltip-js:input").tooltip({
+
+			// place tooltip on the right edge
+			position: "bottom",
+			// a little tweaking of the position
+			offset: [5, -67],
+			// use the built-in fadeIn/fadeOut effect
+			//effect: "fade",
+			// custom opacity setting
+			opacity: 0.9
+
+		});
+	});
+</script>
+
 </body>
+
 </html>
