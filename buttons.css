@@ -1,5 +1,15 @@
 button {margin:4px;}
 
+/* ===============================================*/
+/* qTip2 Overrides */
+/* ===============================================*/
+
+.ui-tooltip, .qtip{
+	font-size: 11px;
+	font-weight:bold;
+}
+
+.tooltip-help {font-weight:normal;font-size:13px;line-height:17px;text-align:left;}
 
 /* ===============================================*/
 /* Regular Buttons */
