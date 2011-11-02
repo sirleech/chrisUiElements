@@ -93,6 +93,7 @@ button.close, button.close:hover{
 	width: 20px;
 	box-shadow: none;
 	opacity:0.5;
+	margin-left:8px;
 }
 
 button.close:hover { opacity:0.65;}
