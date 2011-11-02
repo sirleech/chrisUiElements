@@ -54,7 +54,7 @@ button.app:active{
 
 button.add, button.add:hover{
 	background-image:url('button_images/button_20x20_plus.png');
-	background-position: 7px 5px;
+	background-position: 7px 4px;
 	padding-right:10px;
 	width: 75px;
 }
@@ -80,9 +80,23 @@ button.yes, button.yes:hover{
 
 button.no, button.no:hover{
 	background-image:url('button_images/button_20x20_cross.png');
-	background-position: 7px 5px;
+	background-position: 7px 4px;
 	padding-right:8px;
 	width: 65px;
+}
+
+button.save, button.save:hover{
+	background-image:url('button_images/button_20x20_floppydisk.png');
+	background-position: 7px 4px;
+	padding-right:14px;
+	width: 88px;
+}
+
+button.cancel, button.cancel:hover{
+	background-image:url('button_images/button_20x20_cross_bw.png');
+	background-position: 7px 4px;
+	padding-right:8px;
+	width: 88px;
 }
 
 button.close, button.close:hover{
