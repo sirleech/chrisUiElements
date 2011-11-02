@@ -1,5 +1,3 @@
-button {margin:4px;}
-
 /* ===============================================*/
 /* qTip2 Overrides */
 /* ===============================================*/
@@ -86,6 +84,18 @@ button.no, button.no:hover{
 	padding-right:8px;
 	width: 65px;
 }
+
+button.close, button.close:hover{
+	border: 0px;
+	background: none;
+	background-repeat:no-repeat;
+	background-image:url('button_images/button_20x20_circle_cross.png');
+	width: 20px;
+	box-shadow: none;
+	opacity:0.5;
+}
+
+button.close:hover { opacity:0.65;}
 
 /* ===============================================*/
 /* Large Buttons */
